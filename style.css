@@ -1,0 +1,362 @@
+/* Global Coding here */
+@font-face {
+    font-family:'Afacad';
+    src: url(Font/Afacad-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    font-family: Afacad ;
+   
+    
+}
+/* navbar styling starts here */
+.Container{
+    margin: auto;
+    max-width: 1080px;
+    width: 100%;
+}
+
+.TAGLINE{
+    font-size: 30px;
+    color:brown;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.nav{
+    height: 160px;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    place-items: center;
+}
+
+.Nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+.nav-logo{
+    display: block;
+    height: 5%px;
+    width: 5%;
+}
+.logo:hover{
+    color: brown;
+}
+
+.Nav-bar-style{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 1%;
+    border-radius: 50%;
+
+}
+.Nav-bar-style li a{
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 700;
+    letter-spacing: 0px;
+    font-variant: normal;
+    font-weight:bolder;
+  
+}
+.Nav-bar-style li a:hover{
+    color: brown;
+    text-decoration: dotted;
+    text-transform: capitalize;
+
+}
+/* header styling starts here */
+
+.container{
+    padding-top: 170px;
+    padding-bottom: 10px;
+
+}
+.header-image{
+    height: 300px;
+    width: 100%;
+    padding-left: 20%;
+    display: ;
+   
+}
+
+.header-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10%;
+    justify-content: space-between;
+}
+.header-second{
+    text-align: center;
+    margin: 2px;
+    color: gold;
+   
+}
+.Button{
+    border: 1px solid #DF678C;
+    width: 180px;
+    padding: 2px;
+    border-radius: 20px;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #DF678C;
+    color: white; 
+}
+
+.header-third{
+    text-align:left;
+    gap: 50%;
+    justify-content: center;
+    padding-top: 50%;
+    color: whitesmoke;
+    font-size: large; 
+   
+}
+.Social{  
+    display: flex;
+    width: 3%;
+    gap: 250%;
+    justify-content: left;
+}
+/* 1st section styling starts here */
+
+.section1-container{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+
+
+}
+.section1-container{
+    width: 50%;
+}
+.Educatin-details{
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+    color: gold;
+}
+.Experience-details{
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+    color: gold;
+}
+.box{
+    border: 1px solid black;
+    border-radius: 60px;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    height: 450px;
+}
+.images{
+    width: 70%;
+}
+.image2{
+    width: 100%;
+}
+.pitch-title{
+    text-align: center;
+    font-size: x-large;
+    color: whitesmoke;
+}
+.Pitch{
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    color: whitesmoke;
+}
+.Explore{
+    text-align:center;
+    font-size: medium;
+    padding-top: 10px;
+    font-weight: 800;
+    color: gold;
+    font-size: larger;
+   
+}
+.Education-Experience{
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 20px;
+    color: goldenrod;
+
+}
+
+/* 2nd section styling starts here */
+
+.Checkout{
+    text-align: center;
+    font-size: medium;
+    padding-top: 30px;
+    color: goldenrod;
+    font-size: larger;
+}
+.WebSkills{
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 20px;
+    color: goldenrod;
+    font-size: x-large;
+  
+}
+.Skill-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    padding-left: 1px;
+    padding-right: 5px;
+
+}
+.Skill-box{
+    border: 5px solid brown;
+    border-radius: 10%;
+    text-align: center;
+    background-color: thistle;
+
+}
+.Skill-logo{
+    width: 50%;
+}
+
+.frontback{
+    padding-bottom: 100px;
+    padding-top: 50px;
+    text-align: center;
+    color: brown;
+}
+
+.skill{
+    width: 30%;
+    height: 30%;
+    padding-bottom: 70px;
+    gap: 50%;
+}
+
+
+
+/* 3rd section styling starts here */
+
+.project-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 40px;
+}
+.Projecttitle{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 900;
+    font-size: xx-large;
+    color: goldenrod;
+    font-size: 900;
+}
+.project{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    color: brown;
+    font-size: xx-large;
+}
+.project img{
+    width: 80%;
+    border-radius: 10px;
+    padding: 1px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+.header-action-area{
+    padding-top: 15px;
+   padding-bottom: 40px;
+   gap: 5%;
+}
+.btn{
+    border: 1px solid #DF678C;
+    width: 180px;
+    padding: 4px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 500;
+    color:blue; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: whitesmoke;
+}
+.btn-dark{
+    border: 1px solid #DF678C;
+    width: 180px;
+    padding: 6px;
+    padding-top: 5px;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: darkblue;
+    color: white; 
+   
+    
+}
+.btn-dark:hover{
+    color: brown;
+}
+.btn:hover{
+    color: brown;
+}
+/* Contact styling starts here */
+
+.contact-container{
+   text-align: center;
+   padding-top: 50px;
+   padding: 2px;
+}
+.contact{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+}
+.Query{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: brown;
+}
+.socialicon{
+    width: 3%;
+}
+
+/* footer styling starts here */
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
